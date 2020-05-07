@@ -1,0 +1,10 @@
+* project
+[[https://www.instaclustr.com/instaclustr-kongo-iot-logistics-streaming-demo-application/][kongo project]]
+* how to build
+- kongo1 just javac
+** kongo2 try with gradle
+use gradle_all not only bin, some jar are missing in 
+
+*** setup docker volume
+for gradle cache
+
