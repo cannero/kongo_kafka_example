@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dev:
+    image: openjdk:15-jdk
+    volumes:
+      - .:/usr/src/kongo
+      - ./../gradle-6.3:/opt/gradle
+    working_dir: /usr/src/kongo
+    command: bash
