@@ -5,5 +5,9 @@ services:
     volumes:
       - .:/usr/src/kongo
       - ./../gradle-6.3:/opt/gradle
+      - gradlehome:/var/gradle
     working_dir: /usr/src/kongo
-    command: bash
+    command: bash --init-file init.sh
+volumes:
+  gradlehome:
+    external: true

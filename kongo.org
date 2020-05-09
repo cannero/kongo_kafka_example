@@ -15,6 +15,18 @@ renamed package to kongo1
 ** kongo2
 first initialize gradle project then clone repo
 * Things to do
-*** TODO setup docker volume
+*** TODO use multi-project gradle
+*** DONE setup docker volume
+    CLOSED: [2020-05-09 Sat 22:36]
 for gradle cache
+Environment options
+You can customize many aspects about where build scripts, settings, caches, and so on through the options below. Learn more about customizing your build environment.
+-g, --gradle-user-home
+    Specifies the Gradle user home directory. The default is the .gradle directory in the user’s home directory.
+*** TODO Continuous Build
 
+Continuous Build allows you to automatically re-execute the requested tasks when task inputs change.
+
+For example, you can continuously run the test task and all dependent tasks by running:
+
+$ gradle test --continuous
