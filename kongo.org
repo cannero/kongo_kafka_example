@@ -13,9 +13,10 @@ use gradle_all not only bin, some jar are missing in
 ** kongo1
 renamed package to kongo1
 ** kongo2
-first initialize gradle project then clone repo
+not cloning repo
 * Things to do
-*** TODO use multi-project gradle
+*** DONE use multi-project gradle
+    CLOSED: [2020-05-10 Sun 09:08]
 *** DONE setup docker volume
     CLOSED: [2020-05-09 Sat 22:36]
 for gradle cache
